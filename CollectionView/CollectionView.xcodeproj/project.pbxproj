@@ -27,6 +27,9 @@
 		C847D6201F316A3700A5AE2C /* CardCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C847D61F1F316A3700A5AE2C /* CardCollectionViewFlowLayout.m */; };
 		C847D6231F316BB900A5AE2C /* CardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C847D6221F316BB900A5AE2C /* CardCollectionViewCell.m */; };
 		C847D6291F316FB200A5AE2C /* beautiful.png in Resources */ = {isa = PBXBuildFile; fileRef = C847D6281F316FB200A5AE2C /* beautiful.png */; };
+		C847D62C1F31751F00A5AE2C /* CategoryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C847D62B1F31751F00A5AE2C /* CategoryCollectionViewController.m */; };
+		C847D62F1F3176A600A5AE2C /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C847D62E1F3176A600A5AE2C /* CategoryCollectionViewCell.m */; };
+		C847D6321F3177C400A5AE2C /* CategoryCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C847D6311F3177C400A5AE2C /* CategoryCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +75,12 @@
 		C847D6211F316BB900A5AE2C /* CardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCollectionViewCell.h; sourceTree = "<group>"; };
 		C847D6221F316BB900A5AE2C /* CardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewCell.m; sourceTree = "<group>"; };
 		C847D6281F316FB200A5AE2C /* beautiful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beautiful.png; sourceTree = "<group>"; };
+		C847D62A1F31751F00A5AE2C /* CategoryCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewController.h; sourceTree = "<group>"; };
+		C847D62B1F31751F00A5AE2C /* CategoryCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewController.m; sourceTree = "<group>"; };
+		C847D62D1F3176A600A5AE2C /* CategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		C847D62E1F3176A600A5AE2C /* CategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		C847D6301F3177C400A5AE2C /* CategoryCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionView.h; sourceTree = "<group>"; };
+		C847D6311F3177C400A5AE2C /* CategoryCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +194,12 @@
 		C847D61A1F31682F00A5AE2C /* CategoryCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				C847D62A1F31751F00A5AE2C /* CategoryCollectionViewController.h */,
+				C847D62B1F31751F00A5AE2C /* CategoryCollectionViewController.m */,
+				C847D62D1F3176A600A5AE2C /* CategoryCollectionViewCell.h */,
+				C847D62E1F3176A600A5AE2C /* CategoryCollectionViewCell.m */,
+				C847D6301F3177C400A5AE2C /* CategoryCollectionView.h */,
+				C847D6311F3177C400A5AE2C /* CategoryCollectionView.m */,
 			);
 			path = CategoryCollectionView;
 			sourceTree = "<group>";
@@ -261,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C847D62F1F3176A600A5AE2C /* CategoryCollectionViewCell.m in Sources */,
+				C847D6321F3177C400A5AE2C /* CategoryCollectionView.m in Sources */,
 				C847D6201F316A3700A5AE2C /* CardCollectionViewFlowLayout.m in Sources */,
 				C847D6161F3163F000A5AE2C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C847D62C1F31751F00A5AE2C /* CategoryCollectionViewController.m in Sources */,
 				C847D6141F3163F000A5AE2C /* MASViewConstraint.m in Sources */,
 				C847D60F1F3163F000A5AE2C /* MASCompositeConstraint.m in Sources */,
 				C847D6231F316BB900A5AE2C /* CardCollectionViewCell.m in Sources */,
@@ -431,6 +449,7 @@
 				C847D5F31F31631E00A5AE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

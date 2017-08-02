@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Masonry.h"
 #import "CardCollectionViewController.h"
+#import "CategoryCollectionViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
@@ -35,6 +36,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.title=@"CollectionView";
     self.dataArray=@[@"卡片放大",@"分类滚动",@"瀑布流"];
     [self.tableView reloadData];
 }
@@ -70,7 +72,17 @@
   
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [self.navigationController pushViewController:[CardCollectionViewController new] animated:YES];
+    switch (indexPath.row) {
+        case 0:
+            [self.navigationController pushViewController:[CardCollectionViewController new] animated:YES];
+            break;
+        case 1:
+            [self.navigationController pushViewController:[CategoryCollectionViewController new] animated:YES];
+            break;
+        default:
+            break;
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {

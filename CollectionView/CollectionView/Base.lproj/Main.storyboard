@@ -12,9 +12,8 @@
         <!--Navigation Controller-->
         <scene sceneID="k6W-Et-wdg">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LZD-N1-bfg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="0hv-xo-FjJ" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7yY-e4-9Cb">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="7yY-e4-9Cb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -22,8 +21,9 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RL8-p7-XkR"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LZD-N1-bfg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-710" y="141"/>
+            <point key="canvasLocation" x="-676" y="141"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
