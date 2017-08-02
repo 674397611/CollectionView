@@ -59,11 +59,13 @@ static NSString * const myCollectId = @"CategoryCollectionViewCell";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (self.dataArray.count<self.selectedIndex+1) {
-        self.selectedIndex=0;
-    }
-    CategoryCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:myCollectId forIndexPath:indexPath];
     
+    CategoryCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:myCollectId forIndexPath:indexPath];
+    if (indexPath.row%2) {
+        [cell.myButton setTitle:@"Day day up" forState:UIControlStateNormal];
+    }else{
+        [cell.myButton setTitle:@"好好学习" forState:UIControlStateNormal];
+    }
     if (indexPath.row==self.selectedIndex) {
         cell.isSelected=YES;
         self.myCell=cell;

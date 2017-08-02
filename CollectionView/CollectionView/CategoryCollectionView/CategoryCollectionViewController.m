@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title=@"分类滚动";
     for (int i=0; i<5; i++) {
         CategoryCollectionView *myCollectionView = [[CategoryCollectionView alloc] initWithFrame:CGRectMake(0,64+i*30, self.view.frame.size.width,30)];
         [self.view addSubview:myCollectionView];
