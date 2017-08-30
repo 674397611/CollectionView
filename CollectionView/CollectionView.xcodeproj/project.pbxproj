@@ -30,6 +30,8 @@
 		C847D62C1F31751F00A5AE2C /* CategoryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C847D62B1F31751F00A5AE2C /* CategoryCollectionViewController.m */; };
 		C847D62F1F3176A600A5AE2C /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C847D62E1F3176A600A5AE2C /* CategoryCollectionViewCell.m */; };
 		C847D6321F3177C400A5AE2C /* CategoryCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C847D6311F3177C400A5AE2C /* CategoryCollectionView.m */; };
+		C8DE63691F568A44002C0B7D /* WaterCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE63681F568A44002C0B7D /* WaterCollectionViewLayout.m */; };
+		C8DE636C1F568A5F002C0B7D /* WaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE636B1F568A5F002C0B7D /* WaterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +83,10 @@
 		C847D62E1F3176A600A5AE2C /* CategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewCell.m; sourceTree = "<group>"; };
 		C847D6301F3177C400A5AE2C /* CategoryCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionView.h; sourceTree = "<group>"; };
 		C847D6311F3177C400A5AE2C /* CategoryCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionView.m; sourceTree = "<group>"; };
+		C8DE63671F568A44002C0B7D /* WaterCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterCollectionViewLayout.h; sourceTree = "<group>"; };
+		C8DE63681F568A44002C0B7D /* WaterCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterCollectionViewLayout.m; sourceTree = "<group>"; };
+		C8DE636A1F568A5F002C0B7D /* WaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterViewController.h; sourceTree = "<group>"; };
+		C8DE636B1F568A5F002C0B7D /* WaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,7 @@
 		C847D5DC1F31631E00A5AE2C /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				C8DE63631F5689DC002C0B7D /* WaterCollectionView */,
 				C847D61A1F31682F00A5AE2C /* CategoryCollectionView */,
 				C847D6191F31678100A5AE2C /* CardCollectionView */,
 				C847D5F41F3163C900A5AE2C /* Lib */,
@@ -204,6 +211,17 @@
 			path = CategoryCollectionView;
 			sourceTree = "<group>";
 		};
+		C8DE63631F5689DC002C0B7D /* WaterCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE63671F568A44002C0B7D /* WaterCollectionViewLayout.h */,
+				C8DE63681F568A44002C0B7D /* WaterCollectionViewLayout.m */,
+				C8DE636A1F568A5F002C0B7D /* WaterViewController.h */,
+				C8DE636B1F568A5F002C0B7D /* WaterViewController.m */,
+			);
+			path = WaterCollectionView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -286,10 +304,12 @@
 				C847D6231F316BB900A5AE2C /* CardCollectionViewCell.m in Sources */,
 				C847D6151F3163F000A5AE2C /* NSArray+MASAdditions.m in Sources */,
 				C847D5E51F31631E00A5AE2C /* ViewController.m in Sources */,
+				C8DE63691F568A44002C0B7D /* WaterCollectionViewLayout.m in Sources */,
 				C847D5E21F31631E00A5AE2C /* AppDelegate.m in Sources */,
 				C847D61D1F3168CA00A5AE2C /* CardCollectionViewController.m in Sources */,
 				C847D6121F3163F000A5AE2C /* MASLayoutConstraint.m in Sources */,
 				C847D5DF1F31631E00A5AE2C /* main.m in Sources */,
+				C8DE636C1F568A5F002C0B7D /* WaterViewController.m in Sources */,
 				C847D6181F3163F000A5AE2C /* ViewController+MASAdditions.m in Sources */,
 				C847D6171F3163F000A5AE2C /* View+MASAdditions.m in Sources */,
 				C847D6131F3163F000A5AE2C /* MASViewAttribute.m in Sources */,

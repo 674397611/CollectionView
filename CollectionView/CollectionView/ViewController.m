@@ -10,6 +10,7 @@
 #import "Masonry.h"
 #import "CardCollectionViewController.h"
 #import "CategoryCollectionViewController.h"
+#import "WaterViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
@@ -79,6 +80,10 @@
         case 1:
             [self.navigationController pushViewController:[CategoryCollectionViewController new] animated:YES];
             break;
+        case 2:
+            [self.navigationController pushViewController:[WaterViewController new] animated:YES];
+            break;
+            
         default:
             break;
     }
