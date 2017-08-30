@@ -1,0 +1,2 @@
+# CollectionView
+本demo提供CollectionView的卡片效果,多级分类实现以及瀑布流效果.
